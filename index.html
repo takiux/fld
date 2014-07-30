@@ -1,0 +1,23 @@
+<!doctype html>
+<html ng-app="fld">
+	<head>
+		<meta charset="utf-8">
+		<title>Fast lane daily</title>	
+		<script type="text/javascript" src="/js/jquery-1.9.1.min.js"></script>
+		<script type="text/javascript" src="/js/jquery.easing.js"></script>
+		<script type="text/javascript" src="/js/jquery.ccslider-3.0.1.min.js"></script>
+		<script type="text/javascript" src="/js/angular.min.js"></script>
+		<script type="text/javascript" src="/js/angular-route.min.js"></script>
+		<script type="text/javascript" src="/js/angular-animate.min.js"></script>
+		<script type="text/javascript" src="/js/loading-bar.js"></script>
+		<script type="text/javascript" src="/js/directives.js"></script>
+		<script type="text/javascript" src="/js/app.js"></script>
+		<link rel="stylesheet" href="/styles/style.css" />
+		<link rel="stylesheet" href="/styles/ccslider.css" />
+	</head>
+	<body>
+		<ng-include src="'/views/header.html'"></ng-include>
+		<div id="main_content" ng-view></div>
+		<ng-include src="'/views/footer.html'"></ng-include>
+	</body>
+</html>
